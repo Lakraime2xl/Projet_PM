@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Barre du haut -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E24B4A"
+        android:padding="8dp"
+        android:title="Paramètres"
+        android:titleTextColor="#FFFFFF" />
+
+    <!-- Nom de l'utilisateur -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Ton nom :"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#E24B4A"
+        android:hint="Entre ton nom..."
+        android:textColor="#FFFFFF"
+        android:textColorHint="#888888" />
+
+    <!-- Thématique -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Thématique :"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etThematique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#E24B4A"
+        android:hint="Ex: Films d'action"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#888888" />
+
+    <!-- Notifications -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Notifications :"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchNotifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Activer les notifications"
+        android:textColor="#FFFFFF" />
+
+    <!-- Films adultes -->
+    <CheckBox
+        android:id="@+id/checkBoxAdulte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Afficher les films adultes"
+        android:textColor="#FFFFFF" />
+
+    <!-- Langue -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Langue :"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupLangue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp">
+
+        <RadioButton
+            android:id="@+id/radioFr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Français"
+            android:textColor="#FFFFFF"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioEn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anglais"
+            android:textColor="#FFFFFF" />
+
+    </RadioGroup>
+
+    <!-- Bouton Sauvegarder -->
+    <Button
+        android:id="@+id/btnSauvegarder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#E24B4A"
+        android:text="Sauvegarder"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    android:orientation="vertical">
+
+    <!-- Barre du haut -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E24B4A"
+        android:padding="8dp"
+        android:title="Rechercher un film"
+        android:titleTextColor="#FFFFFF" />
+
+    <!-- Champ de saisie du titre du film -->
+    <EditText
+        android:id="@+id/etRecherche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="#E24B4A"
+        android:hint="Nom du film..."
+        android:textColor="#FFFFFF"
+        android:textColorHint="#888888" />
+
+    <!-- Bouton de recherche -->
+    <Button
+        android:id="@+id/btnRechercher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#E24B4A"
+        android:text="Rechercher"
+        android:textColor="#FFFFFF" />
+
+    <!-- Liste des résultats -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewResultats"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp" />
+
+</LinearLayout>
