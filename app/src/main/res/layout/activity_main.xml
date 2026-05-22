@@ -2,17 +2,17 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#111111">
+    android:background="#1A1A2E">
 
-    <!-- Barre du haut avec le titre -->
+    <!-- Barre du haut -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#E24B4A"
+        android:background="#16213E"
         android:padding="8dp"
-        android:title="ActionZone"
-        android:titleTextColor="#FFFFFF" />
+        android:title="CineAction"
+        android:titleTextColor="#C9A84C" />
 
     <!-- Liste des films sauvegardés -->
     <androidx.recyclerview.widget.RecyclerView
@@ -30,7 +30,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_margin="16dp"
-        android:backgroundTint="#E24B4A"
+        android:backgroundTint="#C9A84C"
         android:src="@android:drawable/ic_input_add" />
 
 </RelativeLayout>

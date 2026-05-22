@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#111111"
+    android:background="#1A1A2E"
     android:orientation="vertical">
 
     <!-- Barre du haut -->
@@ -10,20 +10,20 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#E24B4A"
+        android:background="#16213E"
         android:padding="8dp"
         android:title="Rechercher un film"
-        android:titleTextColor="#FFFFFF" />
+        android:titleTextColor="#C9A84C" />
 
-    <!-- Champ de saisie du titre du film -->
+    <!-- Champ de saisie -->
     <EditText
         android:id="@+id/etRecherche"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:backgroundTint="#E24B4A"
+        android:backgroundTint="#C9A84C"
         android:hint="Nom du film..."
-        android:textColor="#FFFFFF"
+        android:textColor="#E0E0E0"
         android:textColorHint="#888888" />
 
     <!-- Bouton de recherche -->
@@ -32,9 +32,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:background="#E24B4A"
+        android:background="#16213E"
         android:text="Rechercher"
-        android:textColor="#FFFFFF" />
+        android:textColor="#C9A84C" />
 
     <!-- Liste des résultats -->
     <androidx.recyclerview.widget.RecyclerView

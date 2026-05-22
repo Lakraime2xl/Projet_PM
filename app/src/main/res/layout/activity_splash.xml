@@ -2,20 +2,18 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#111111">
+    android:background="#1A1A2E">
 
-    <!-- Nom de l'application, centré dans l'écran -->
     <TextView
         android:id="@+id/tvNomApp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="ACTION ZONE"
-        android:textColor="#E24B4A"
+        android:text="CINEMA"
+        android:textColor="#C9A84C"
         android:textSize="32sp"
         android:textStyle="bold" />
 
-    <!-- Slogan sous le nom -->
     <TextView
         android:id="@+id/tvSlogan"
         android:layout_width="wrap_content"
@@ -27,7 +25,6 @@
         android:textColor="#888888"
         android:textSize="14sp" />
 
-    <!-- Barre de chargement en bas de l'écran -->
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"

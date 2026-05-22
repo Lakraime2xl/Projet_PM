@@ -2,27 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#111111"
+    android:background="#1A1A2E"
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- Barre du haut -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#E24B4A"
+        android:background="#16213E"
         android:padding="8dp"
         android:title="Paramètres"
-        android:titleTextColor="#FFFFFF" />
+        android:titleTextColor="#C9A84C" />
 
-    <!-- Nom de l'utilisateur -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Ton nom :"
-        android:textColor="#FFFFFF"
+        android:textColor="#E0E0E0"
         android:textSize="14sp" />
 
     <EditText
@@ -30,18 +28,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:backgroundTint="#E24B4A"
+        android:backgroundTint="#C9A84C"
         android:hint="Entre ton nom..."
-        android:textColor="#FFFFFF"
+        android:textColor="#E0E0E0"
         android:textColorHint="#888888" />
 
-    <!-- Thématique -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Thématique :"
-        android:textColor="#FFFFFF"
+        android:textColor="#E0E0E0"
         android:textSize="14sp" />
 
     <EditText
@@ -49,18 +46,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:backgroundTint="#E24B4A"
+        android:backgroundTint="#C9A84C"
         android:hint="Ex: Films d'action"
-        android:textColor="#FFFFFF"
+        android:textColor="#E0E0E0"
         android:textColorHint="#888888" />
 
-    <!-- Notifications -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Notifications :"
-        android:textColor="#FFFFFF"
+        android:textColor="#E0E0E0"
         android:textSize="14sp" />
 
     <androidx.appcompat.widget.SwitchCompat
@@ -69,24 +65,22 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:text="Activer les notifications"
-        android:textColor="#FFFFFF" />
+        android:textColor="#E0E0E0" />
 
-    <!-- Films adultes -->
     <CheckBox
         android:id="@+id/checkBoxAdulte"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Afficher les films adultes"
-        android:textColor="#FFFFFF" />
+        android:textColor="#E0E0E0" />
 
-    <!-- Langue -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Langue :"
-        android:textColor="#FFFFFF"
+        android:textColor="#E0E0E0"
         android:textSize="14sp" />
 
     <RadioGroup
@@ -100,7 +94,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Français"
-            android:textColor="#FFFFFF"
+            android:textColor="#E0E0E0"
             android:checked="true" />
 
         <RadioButton
@@ -108,18 +102,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Anglais"
-            android:textColor="#FFFFFF" />
+            android:textColor="#E0E0E0" />
 
     </RadioGroup>
 
-    <!-- Bouton Sauvegarder -->
     <Button
         android:id="@+id/btnSauvegarder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:background="#E24B4A"
+        android:background="#C9A84C"
         android:text="Sauvegarder"
-        android:textColor="#FFFFFF" />
+        android:textColor="#1A1A2E" />
 
 </LinearLayout>
